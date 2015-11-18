@@ -1,4 +1,6 @@
 @charset "utf-8";
+@import "layout.css";
+@import "menu.css";
 
 * {
     margin: 0 0 0 0;
@@ -7,25 +9,30 @@
 
 
 body {
-    max-width: 960px;
+    max-width: 980px;
     text-align: center;
     margin: auto;
     font-size: 14px;
     font-family: "Times New Roman", Times, serif;
+    background-color: #fcfcfc;
 }
 
 header{
     text-align: left;
-    margin-top: 30px;
+    margin-top: 10px;
 
 }
 
 .logo{
     float:left;
-    width: 150px;
+    width: 263px;
+    margin-top: 50px;
+    padding-top: 20px;
+
 }
 
 header p{
     float: right;
-    width: 810px;
+    width: 690px;
+    margin-top: 25px;
 }
